@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QMPhotoManage_Example' do
+  pod 'QMPhotoManage', :path => '../'
+
+  target 'QMPhotoManage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

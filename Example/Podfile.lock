@@ -1,0 +1,16 @@
+PODS:
+  - QMPhotoManage (0.1.0)
+
+DEPENDENCIES:
+  - QMPhotoManage (from `../`)
+
+EXTERNAL SOURCES:
+  QMPhotoManage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QMPhotoManage: 56003b9afdf5428da9f276f989eab14c3c0d3b40
+
+PODFILE CHECKSUM: 3612d28d06b8082581865593a2e6b0991c15ce09
+
+COCOAPODS: 1.11.2

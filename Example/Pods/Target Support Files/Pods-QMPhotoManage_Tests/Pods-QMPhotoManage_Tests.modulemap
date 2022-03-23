@@ -1,0 +1,6 @@
+framework module Pods_QMPhotoManage_Tests {
+  umbrella header "Pods-QMPhotoManage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

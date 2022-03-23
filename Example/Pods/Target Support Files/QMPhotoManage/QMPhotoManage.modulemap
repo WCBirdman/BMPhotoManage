@@ -1,0 +1,6 @@
+framework module QMPhotoManage {
+  umbrella header "QMPhotoManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

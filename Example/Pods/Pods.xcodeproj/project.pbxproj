@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BEFCFF1350673B25429046012DE669A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		33AE6187E2A1A3FAF9404841E3E2A3CC /* QMCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC14B2D39D4BC8D77C8669A49246EA4 /* QMCameraViewController.swift */; };
+		469D8823DC25E610BCE6805537DA80F0 /* Pods-QMPhotoManage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3037C7ADC1352EA6C135A5BBD61D6 /* Pods-QMPhotoManage_Example-dummy.m */; };
+		519705EBCF07188593E6618F5B4EA28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		622E9D8420295A041C82AEAC6CC4579B /* Pods-QMPhotoManage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 796DE5544986EA4CE5F25376E710114A /* Pods-QMPhotoManage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C5A758897958FAA7E75C08E1509A30 /* Pods-QMPhotoManage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F1DBB3E9D803BC5D85648CE98033C9 /* Pods-QMPhotoManage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B4DB75CBC4A84430A1CAF68531C5E9C /* QMPhotoManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EA92163D8906430299BE60038FD23 /* QMPhotoManage.swift */; };
+		929D737F8CBA86E212E4127D57B23049 /* QMPhotoManage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5CCB4059AF1911CCFEA3A92EDE9A40 /* QMPhotoManage-dummy.m */; };
+		9BE6181A60D51AAC29CC198B9DC8D29A /* QMClipperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547FBBAED0117338D6125877728C9B4 /* QMClipperViewController.swift */; };
+		A1CEC518684B6AE04F0476FBB45DB621 /* QMDeviceTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A285F9DB040BD8C51760C948C1BF1 /* QMDeviceTool.swift */; };
+		F752F27E42FD1A4DD6C478AE087D42C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FB13D7C5AEDF86C2DAB15E8CB093D521 /* QMPhotoManage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E860B48898EE0DDB6C096E5B3F12E40 /* QMPhotoManage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4487A7A399936B667AE04B4F0156CB /* Pods-QMPhotoManage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E43E400CAB23B2A6646E549D34C3A73 /* Pods-QMPhotoManage_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0052912E903B81D0C56F3B2C29C570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0956F6D2A04C0FEE7282D94420FB365;
+			remoteInfo = "Pods-QMPhotoManage_Example";
+		};
+		BD6CFAA60024A6B7E25A7791CBC31080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D8531CE72DAAE67858916A9ADC8BFB;
+			remoteInfo = QMPhotoManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0327C8657713695ECFA14C7D0D27E0C6 /* Pods_QMPhotoManage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMPhotoManage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C483DC3D34460E787EA792B3B3EB939 /* Pods-QMPhotoManage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMPhotoManage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1547FBBAED0117338D6125877728C9B4 /* QMClipperViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QMClipperViewController.swift; path = QMPhotoManage/Classes/QMClipperViewController.swift; sourceTree = "<group>"; };
+		18FE0BAC7A525021AEAAF93C96BD8E58 /* Pods-QMPhotoManage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMPhotoManage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		19DA91AD465EF4223AE3A10EB7D30294 /* Pods-QMPhotoManage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMPhotoManage_Example.modulemap"; sourceTree = "<group>"; };
+		205368B5A4014470C6B1BE6D56313C50 /* Pods-QMPhotoManage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMPhotoManage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		293182D45B795A75471A0F8C2C1275A3 /* QMPhotoManage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QMPhotoManage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3841930AB84AA7C585353A00F932C6A3 /* Pods-QMPhotoManage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMPhotoManage_Tests.modulemap"; sourceTree = "<group>"; };
+		40815144F6B10B8CB8FFFEF20865EEFB /* Pods-QMPhotoManage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMPhotoManage_Tests-Info.plist"; sourceTree = "<group>"; };
+		4CF3037C7ADC1352EA6C135A5BBD61D6 /* Pods-QMPhotoManage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMPhotoManage_Example-dummy.m"; sourceTree = "<group>"; };
+		4E860B48898EE0DDB6C096E5B3F12E40 /* QMPhotoManage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMPhotoManage-umbrella.h"; sourceTree = "<group>"; };
+		65CEFD80C54A97DE11DBB27D394F34CC /* Pods-QMPhotoManage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMPhotoManage_Example-Info.plist"; sourceTree = "<group>"; };
+		6FC14B2D39D4BC8D77C8669A49246EA4 /* QMCameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QMCameraViewController.swift; path = QMPhotoManage/Classes/QMCameraViewController.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		796DE5544986EA4CE5F25376E710114A /* Pods-QMPhotoManage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMPhotoManage_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E43E400CAB23B2A6646E549D34C3A73 /* Pods-QMPhotoManage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMPhotoManage_Tests-dummy.m"; sourceTree = "<group>"; };
+		7E7B960C935FA00234166BA7E099BB2A /* QMPhotoManage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMPhotoManage-prefix.pch"; sourceTree = "<group>"; };
+		7F9087952F43C88F27DCDB92A032C0AD /* Pods_QMPhotoManage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMPhotoManage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80934C722D72446D017BE3896D517F72 /* QMPhotoManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMPhotoManage.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04BAAD84263A7F63360A25E594291B3 /* Pods-QMPhotoManage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMPhotoManage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE5A7F024371E381EE2E59D7538089DC /* QMPhotoManage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QMPhotoManage.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		B327D60CDA44EB6D057A8556FF38571D /* Pods-QMPhotoManage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMPhotoManage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B665ABDDFA21BF92B3A330D3B406399A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B6BBAD71764C305F5484730A179245E9 /* QMPhotoManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMPhotoManage.release.xcconfig; sourceTree = "<group>"; };
+		BB9A285F9DB040BD8C51760C948C1BF1 /* QMDeviceTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QMDeviceTool.swift; path = QMPhotoManage/Classes/QMDeviceTool.swift; sourceTree = "<group>"; };
+		C6DD91E8FBC4138640D34ACEA17924F0 /* QMPhotoManage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QMPhotoManage-Info.plist"; sourceTree = "<group>"; };
+		D195485CD58358529BE57C23238B422C /* Pods-QMPhotoManage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMPhotoManage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E1F1DBB3E9D803BC5D85648CE98033C9 /* Pods-QMPhotoManage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMPhotoManage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E839CBEFAF5B260F009D7A36D2E490DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ECC1D85CBFBBF121AE1AE3066263DEE9 /* Pods-QMPhotoManage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMPhotoManage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F126428AD1C5AF7C49C6A1AB249DD0EE /* Pods-QMPhotoManage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMPhotoManage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA2FC64EBD7972D123BF199EFAA02E66 /* QMPhotoManage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QMPhotoManage.modulemap; sourceTree = "<group>"; };
+		FA5EA92163D8906430299BE60038FD23 /* QMPhotoManage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QMPhotoManage.swift; path = QMPhotoManage/Classes/QMPhotoManage.swift; sourceTree = "<group>"; };
+		FC5CCB4059AF1911CCFEA3A92EDE9A40 /* QMPhotoManage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMPhotoManage-dummy.m"; sourceTree = "<group>"; };
+		FE8FEE73D5FB079B160A53F49FDE6246 /* Pods-QMPhotoManage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMPhotoManage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E957400F2B0BA1BF288FF575B96493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F752F27E42FD1A4DD6C478AE087D42C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A1BB6C591788D6F388E805A295C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519705EBCF07188593E6618F5B4EA28B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91650E6FAC020E87C35A2F2F53A28331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEFCFF1350673B25429046012DE669A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230812EAE0C40315ABC89BE0408DD7F5 /* Pods-QMPhotoManage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3841930AB84AA7C585353A00F932C6A3 /* Pods-QMPhotoManage_Tests.modulemap */,
+				FE8FEE73D5FB079B160A53F49FDE6246 /* Pods-QMPhotoManage_Tests-acknowledgements.markdown */,
+				A04BAAD84263A7F63360A25E594291B3 /* Pods-QMPhotoManage_Tests-acknowledgements.plist */,
+				7E43E400CAB23B2A6646E549D34C3A73 /* Pods-QMPhotoManage_Tests-dummy.m */,
+				40815144F6B10B8CB8FFFEF20865EEFB /* Pods-QMPhotoManage_Tests-Info.plist */,
+				E1F1DBB3E9D803BC5D85648CE98033C9 /* Pods-QMPhotoManage_Tests-umbrella.h */,
+				B327D60CDA44EB6D057A8556FF38571D /* Pods-QMPhotoManage_Tests.debug.xcconfig */,
+				0C483DC3D34460E787EA792B3B3EB939 /* Pods-QMPhotoManage_Tests.release.xcconfig */,
+			);
+			name = "Pods-QMPhotoManage_Tests";
+			path = "Target Support Files/Pods-QMPhotoManage_Tests";
+			sourceTree = "<group>";
+		};
+		26961CE5E61C357A44FD69265C118637 /* Pods-QMPhotoManage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				19DA91AD465EF4223AE3A10EB7D30294 /* Pods-QMPhotoManage_Example.modulemap */,
+				F126428AD1C5AF7C49C6A1AB249DD0EE /* Pods-QMPhotoManage_Example-acknowledgements.markdown */,
+				ECC1D85CBFBBF121AE1AE3066263DEE9 /* Pods-QMPhotoManage_Example-acknowledgements.plist */,
+				4CF3037C7ADC1352EA6C135A5BBD61D6 /* Pods-QMPhotoManage_Example-dummy.m */,
+				D195485CD58358529BE57C23238B422C /* Pods-QMPhotoManage_Example-frameworks.sh */,
+				65CEFD80C54A97DE11DBB27D394F34CC /* Pods-QMPhotoManage_Example-Info.plist */,
+				796DE5544986EA4CE5F25376E710114A /* Pods-QMPhotoManage_Example-umbrella.h */,
+				205368B5A4014470C6B1BE6D56313C50 /* Pods-QMPhotoManage_Example.debug.xcconfig */,
+				18FE0BAC7A525021AEAAF93C96BD8E58 /* Pods-QMPhotoManage_Example.release.xcconfig */,
+			);
+			name = "Pods-QMPhotoManage_Example";
+			path = "Target Support Files/Pods-QMPhotoManage_Example";
+			sourceTree = "<group>";
+		};
+		2A589FCB68F86377A78630E710525264 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26961CE5E61C357A44FD69265C118637 /* Pods-QMPhotoManage_Example */,
+				230812EAE0C40315ABC89BE0408DD7F5 /* Pods-QMPhotoManage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48C1DD5C69BD9F178CA4A645AF41EAEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B665ABDDFA21BF92B3A330D3B406399A /* LICENSE */,
+				AE5A7F024371E381EE2E59D7538089DC /* QMPhotoManage.podspec */,
+				E839CBEFAF5B260F009D7A36D2E490DD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		56CBE4443E4336CB397763E6BDE413C4 /* QMPhotoManage */ = {
+			isa = PBXGroup;
+			children = (
+				6FC14B2D39D4BC8D77C8669A49246EA4 /* QMCameraViewController.swift */,
+				1547FBBAED0117338D6125877728C9B4 /* QMClipperViewController.swift */,
+				BB9A285F9DB040BD8C51760C948C1BF1 /* QMDeviceTool.swift */,
+				FA5EA92163D8906430299BE60038FD23 /* QMPhotoManage.swift */,
+				48C1DD5C69BD9F178CA4A645AF41EAEC /* Pod */,
+				8E21D550B51A06F74A9682C00A638BE6 /* Support Files */,
+			);
+			name = QMPhotoManage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64B83328EEDC2D45EA07A6D420F107B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9087952F43C88F27DCDB92A032C0AD /* Pods_QMPhotoManage_Example.framework */,
+				0327C8657713695ECFA14C7D0D27E0C6 /* Pods_QMPhotoManage_Tests.framework */,
+				293182D45B795A75471A0F8C2C1275A3 /* QMPhotoManage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E21D550B51A06F74A9682C00A638BE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FC64EBD7972D123BF199EFAA02E66 /* QMPhotoManage.modulemap */,
+				FC5CCB4059AF1911CCFEA3A92EDE9A40 /* QMPhotoManage-dummy.m */,
+				C6DD91E8FBC4138640D34ACEA17924F0 /* QMPhotoManage-Info.plist */,
+				7E7B960C935FA00234166BA7E099BB2A /* QMPhotoManage-prefix.pch */,
+				4E860B48898EE0DDB6C096E5B3F12E40 /* QMPhotoManage-umbrella.h */,
+				80934C722D72446D017BE3896D517F72 /* QMPhotoManage.debug.xcconfig */,
+				B6BBAD71764C305F5484730A179245E9 /* QMPhotoManage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QMPhotoManage";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E6BC377AE21C75EA7E711C155A611A79 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				64B83328EEDC2D45EA07A6D420F107B5 /* Products */,
+				2A589FCB68F86377A78630E710525264 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BC377AE21C75EA7E711C155A611A79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56CBE4443E4336CB397763E6BDE413C4 /* QMPhotoManage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E566E8CEA926E606B00B85CBDA10611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C5A758897958FAA7E75C08E1509A30 /* Pods-QMPhotoManage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C22B796F1CEC35FB0D0AF2416632A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622E9D8420295A041C82AEAC6CC4579B /* Pods-QMPhotoManage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5689693742FBD498CFC61C8A5D19588 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB13D7C5AEDF86C2DAB15E8CB093D521 /* QMPhotoManage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		257D5C9BF400696918B34AA102495A35 /* Pods-QMPhotoManage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F2C839D11241B8E0249DB4AB05E0F8 /* Build configuration list for PBXNativeTarget "Pods-QMPhotoManage_Tests" */;
+			buildPhases = (
+				8E566E8CEA926E606B00B85CBDA10611 /* Headers */,
+				436C2E8C60029D88605CC3C084FEAD44 /* Sources */,
+				417A1BB6C591788D6F388E805A295C68 /* Frameworks */,
+				97AAE1000C6FCCF77E4666340C8EEC6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFF1AAE2F6B2BA629E791B29D0B2D0E /* PBXTargetDependency */,
+			);
+			name = "Pods-QMPhotoManage_Tests";
+			productName = Pods_QMPhotoManage_Tests;
+			productReference = 0327C8657713695ECFA14C7D0D27E0C6 /* Pods_QMPhotoManage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63D8531CE72DAAE67858916A9ADC8BFB /* QMPhotoManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6E9BF004D17102BBAAF4508177A053 /* Build configuration list for PBXNativeTarget "QMPhotoManage" */;
+			buildPhases = (
+				F5689693742FBD498CFC61C8A5D19588 /* Headers */,
+				A3624A4B873050E48BEF298A287C25BC /* Sources */,
+				38E957400F2B0BA1BF288FF575B96493 /* Frameworks */,
+				5EF3733793A9488A55ECE3857557E943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMPhotoManage;
+			productName = QMPhotoManage;
+			productReference = 293182D45B795A75471A0F8C2C1275A3 /* QMPhotoManage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0956F6D2A04C0FEE7282D94420FB365 /* Pods-QMPhotoManage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66891CAD43F0435596300F041A301BCA /* Build configuration list for PBXNativeTarget "Pods-QMPhotoManage_Example" */;
+			buildPhases = (
+				A6C22B796F1CEC35FB0D0AF2416632A9 /* Headers */,
+				2E0928649830DD28CDA26822A1856DF2 /* Sources */,
+				91650E6FAC020E87C35A2F2F53A28331 /* Frameworks */,
+				C38091F1A71497E8DE585E5C42DF5907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133D6296DDB036655FC989A8E3A9D2C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-QMPhotoManage_Example";
+			productName = Pods_QMPhotoManage_Example;
+			productReference = 7F9087952F43C88F27DCDB92A032C0AD /* Pods_QMPhotoManage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 64B83328EEDC2D45EA07A6D420F107B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0956F6D2A04C0FEE7282D94420FB365 /* Pods-QMPhotoManage_Example */,
+				257D5C9BF400696918B34AA102495A35 /* Pods-QMPhotoManage_Tests */,
+				63D8531CE72DAAE67858916A9ADC8BFB /* QMPhotoManage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EF3733793A9488A55ECE3857557E943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AAE1000C6FCCF77E4666340C8EEC6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38091F1A71497E8DE585E5C42DF5907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0928649830DD28CDA26822A1856DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469D8823DC25E610BCE6805537DA80F0 /* Pods-QMPhotoManage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436C2E8C60029D88605CC3C084FEAD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4487A7A399936B667AE04B4F0156CB /* Pods-QMPhotoManage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3624A4B873050E48BEF298A287C25BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AE6187E2A1A3FAF9404841E3E2A3CC /* QMCameraViewController.swift in Sources */,
+				9BE6181A60D51AAC29CC198B9DC8D29A /* QMClipperViewController.swift in Sources */,
+				A1CEC518684B6AE04F0476FBB45DB621 /* QMDeviceTool.swift in Sources */,
+				6B4DB75CBC4A84430A1CAF68531C5E9C /* QMPhotoManage.swift in Sources */,
+				929D737F8CBA86E212E4127D57B23049 /* QMPhotoManage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133D6296DDB036655FC989A8E3A9D2C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMPhotoManage;
+			target = 63D8531CE72DAAE67858916A9ADC8BFB /* QMPhotoManage */;
+			targetProxy = BD6CFAA60024A6B7E25A7791CBC31080 /* PBXContainerItemProxy */;
+		};
+		8BFF1AAE2F6B2BA629E791B29D0B2D0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QMPhotoManage_Example";
+			target = D0956F6D2A04C0FEE7282D94420FB365 /* Pods-QMPhotoManage_Example */;
+			targetProxy = 1F0052912E903B81D0C56F3B2C29C570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005FF1066C60504F52DC64F926AD93EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C483DC3D34460E787EA792B3B3EB939 /* Pods-QMPhotoManage_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMPhotoManage_Tests/Pods-QMPhotoManage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMPhotoManage_Tests/Pods-QMPhotoManage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		022989874CF050DAFD0F8DC7F91DDB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205368B5A4014470C6B1BE6D56313C50 /* Pods-QMPhotoManage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMPhotoManage_Example/Pods-QMPhotoManage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMPhotoManage_Example/Pods-QMPhotoManage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		36082B0B30F2C160E89F66DCF4BAD38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B327D60CDA44EB6D057A8556FF38571D /* Pods-QMPhotoManage_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMPhotoManage_Tests/Pods-QMPhotoManage_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMPhotoManage_Tests/Pods-QMPhotoManage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		518FA53642F95CF975EC96F5D4A55887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BBAD71764C305F5484730A179245E9 /* QMPhotoManage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMPhotoManage/QMPhotoManage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMPhotoManage/QMPhotoManage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMPhotoManage/QMPhotoManage.modulemap";
+				PRODUCT_MODULE_NAME = QMPhotoManage;
+				PRODUCT_NAME = QMPhotoManage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		521563718DD9B10F0DBF99CB4FDD7DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FE0BAC7A525021AEAAF93C96BD8E58 /* Pods-QMPhotoManage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QMPhotoManage_Example/Pods-QMPhotoManage_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMPhotoManage_Example/Pods-QMPhotoManage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FFCD817ACD474773C1F757EE8D72DF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80934C722D72446D017BE3896D517F72 /* QMPhotoManage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMPhotoManage/QMPhotoManage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMPhotoManage/QMPhotoManage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMPhotoManage/QMPhotoManage.modulemap";
+				PRODUCT_MODULE_NAME = QMPhotoManage;
+				PRODUCT_NAME = QMPhotoManage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F2C839D11241B8E0249DB4AB05E0F8 /* Build configuration list for PBXNativeTarget "Pods-QMPhotoManage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36082B0B30F2C160E89F66DCF4BAD38B /* Debug */,
+				005FF1066C60504F52DC64F926AD93EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66891CAD43F0435596300F041A301BCA /* Build configuration list for PBXNativeTarget "Pods-QMPhotoManage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022989874CF050DAFD0F8DC7F91DDB96 /* Debug */,
+				521563718DD9B10F0DBF99CB4FDD7DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6E9BF004D17102BBAAF4508177A053 /* Build configuration list for PBXNativeTarget "QMPhotoManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD817ACD474773C1F757EE8D72DF23 /* Debug */,
+				518FA53642F95CF975EC96F5D4A55887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

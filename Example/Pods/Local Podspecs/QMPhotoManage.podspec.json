@@ -1,0 +1,22 @@
+{
+  "name": "QMPhotoManage",
+  "version": "0.1.0",
+  "summary": "A short description of QMPhotoManage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangchao/QMPhotoManage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangchao": "vincent.wang@ximalaya.com"
+  },
+  "source": {
+    "git": "https://github.com/wangchao/QMPhotoManage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QMPhotoManage/Classes/**/*"
+}
